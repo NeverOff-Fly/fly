@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code — skills sao versionadas em .claude/skills/; settings pessoal nao
+.claude/settings.local.json
+.claude/*.bak-*

@@ -22,6 +22,20 @@ A arquitetura prevê integração Headless com Yampi/Montink para gerenciamento 
 
 3. Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
+### Ambiente de IA (Claude Code)
+
+Este repo inclui skills de IA versionadas em [`.claude/skills/`](.claude/skills/) (Next.js, React,
+shadcn, Tailwind, Stripe/PayPal, design) — disponíveis automaticamente no Claude Code, sem instalar nada.
+
+Para as ferramentas globais (`rtk`, `gsd`), rode uma vez após clonar:
+
+```bash
+pwsh ./scripts/setup-dev.ps1   # Windows
+./scripts/setup-dev.sh         # macOS / Linux / WSL
+```
+
+Detalhes em [`docs/DEV-SETUP.md`](docs/DEV-SETUP.md).
+
 ### Próximos Passos
 1. Desenvolver o UI base (Home, Lista de Produtos) usando CSS puro (Vanilla) com design Premium.
 2. Integrar API para listar produtos.
